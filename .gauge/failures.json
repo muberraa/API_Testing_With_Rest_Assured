@@ -5,7 +5,5 @@
 		"--hide-suggestion",
 		"--simple-console"
 	],
-	"FailedItems": [
-		"specs\\apitest.spec:20"
-	]
+	"FailedItems": []
 }

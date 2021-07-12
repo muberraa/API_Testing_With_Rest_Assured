@@ -798,3 +798,34 @@
 12-07-2021 16:49:28.589 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
 12-07-2021 16:50:41.871 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
 12-07-2021 16:50:41.886 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
+12-07-2021 17:12:12.819 [Gauge] [INFO] Watching directory: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs
+12-07-2021 17:12:12.819 [Gauge] [DEBUG] Found 1 files
+12-07-2021 17:12:12.828 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+12-07-2021 17:12:12.829 [Gauge] [INFO] Initializing specs cache with 1 specs
+12-07-2021 17:12:12.829 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
+12-07-2021 17:12:12.829 [Gauge] [INFO] Initializing steps cache with 1 steps
+12-07-2021 17:12:12.829 [Gauge] [INFO] Gauge daemon initialized and listening on port: 62032
+12-07-2021 17:19:14.953 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Yeni bir post olu\305\237tur" > 
+12-07-2021 17:19:14.966 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Yeni bir post olu\305\237tur" parameterizedStepValue:"Yeni bir post olu\305\237tur" > > 
+12-07-2021 17:19:14.989 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Kullan\304\261c\304\261 listesinin t\303\274m\303\274n\303\274 getir" > 
+12-07-2021 17:19:14.990 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Kullan\304\261c\304\261 listesinin t\303\274m\303\274n\303\274 getir" parameterizedStepValue:"Kullan\304\261c\304\261 listesinin t\303\274m\303\274n\303\274 getir" > > 
+12-07-2021 17:19:14.991 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"id = \"2\" olan kullan\304\261c\304\261 bilgilerini getir" > 
+12-07-2021 17:19:14.992 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"id = {} olan kullan\304\261c\304\261 bilgilerini getir" parameterizedStepValue:"id = <2> olan kullan\304\261c\304\261 bilgilerini getir" parameters:"2" > > 
+12-07-2021 17:19:14.993 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"3\" id'li kullan\304\261c\304\261y\304\261 sil" > 
+12-07-2021 17:19:14.993 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} id'li kullan\304\261c\304\261y\304\261 sil" parameterizedStepValue:"<3> id'li kullan\304\261c\304\261y\304\261 sil" parameters:"3" > > 
+12-07-2021 17:19:14.993 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Olu\305\237turulan post g\303\274ncellenir" > 
+12-07-2021 17:19:14.993 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Olu\305\237turulan post g\303\274ncellenir" parameterizedStepValue:"Olu\305\237turulan post g\303\274ncellenir" > > 
+12-07-2021 17:19:14.993 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Olu\305\237turulan post silinir" > 
+12-07-2021 17:19:14.993 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Olu\305\237turulan post silinir" parameterizedStepValue:"Olu\305\237turulan post silinir" > > 
+12-07-2021 17:19:44.510 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"id = <id> olan kullan\304\261c\304\261 bilgilerini getir" > 
+12-07-2021 17:19:44.510 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"id = {} olan kullan\304\261c\304\261 bilgilerini getir" parameterizedStepValue:"id = <id> olan kullan\304\261c\304\261 bilgilerini getir" parameters:"id" > > 
+12-07-2021 17:19:44.514 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<id> id'li kullan\304\261c\304\261y\304\261 sil" > 
+12-07-2021 17:19:44.514 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} id'li kullan\304\261c\304\261y\304\261 sil" parameterizedStepValue:"<id> id'li kullan\304\261c\304\261y\304\261 sil" parameters:"id" > > 
+12-07-2021 17:19:50.739 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
+12-07-2021 17:19:50.741 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
+12-07-2021 17:19:50.880 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
+12-07-2021 17:19:50.881 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
+12-07-2021 17:19:55.504 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
+12-07-2021 17:19:55.521 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
+12-07-2021 17:24:29.764 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec
+12-07-2021 17:24:29.765 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\com.gauge\restAssuredTest\specs\apitest.spec

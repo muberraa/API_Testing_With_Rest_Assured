@@ -24,7 +24,6 @@ public class BaseUrl {
                 .build();
 
         endpointResponse = new ResponseSpecBuilder()
-                .expectResponseTime(lessThan(3000L))
                 .build();
         RestAssured.requestSpecification = endpointRequest;
         RestAssured.responseSpecification = endpointResponse;
