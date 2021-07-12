@@ -1,0 +1,83 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 574milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 574"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54388"}
+{"logLevel":"info","message":"Listening on port:54388"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.apitest.steps.GetMethods.getAllUsers' and 'com.apitest.steps.GetMethods.getAllUsers'"}
+{"logLevel":"debug","message":"Found Kullanıcı listesinin tümünü getir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.apitest.steps.GetMethods.getUserInfoWithId' and 'com.apitest.steps.GetMethods.getUserInfoWithId'"}
+{"logLevel":"debug","message":"Found id'si {} olan kullanıcı bilgilerini getir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tKullanıcı listesinin tümünü getir : public void getAllUsers()"}
+{"logLevel":"debug","message":"\tid'si {} olan kullanıcı bilgilerini getir : public void getUserInfoWithId(ınt id)"}
+{"logLevel":"debug","message":"Executing 'id'si {} olan kullanıcı bilgilerini getir' using 'class com.apitest.steps.GetMethods.getUserInfoWithId"}
+Request method:	GET
+Request URI:	http://jsonplaceholder.typicode.com/users?id=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 12 Jul 2021 09:47:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 559
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1626083310
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"22f-Xslr/WbRYERqvmQ3oppSc/eyCho"
+Via: 1.1 vegur
+CF-Cache-Status: MISS
+Accept-Ranges: bytes
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=kEpZyJpcQPToC74qTXaReaSlB%2F50n8r0ZQ6TF9SowW0%2Fq8zvHtAvu5K5MnwNMIuvO0%2FP2Y75HABHbEb9b61%2FBxxPm%2BmxAWNJ3mG%2BgjWwZyzRbvNvAPjR2XxjKx3qe5Q0UjfcisHT4k%2BdOw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 66d959c2fac3508d-IST
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+
+[
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    }
+]
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

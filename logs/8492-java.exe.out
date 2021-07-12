@@ -1,0 +1,37 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 591milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 591"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49698"}
+{"logLevel":"info","message":"Listening on port:49698"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.apitest.steps.GetMethods.getAllUsers' and 'com.apitest.steps.GetMethods.getAllUsers'"}
+{"logLevel":"debug","message":"Found Kullanıcı listesinin tümünü getir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.apitest.steps.GetMethods.getUserInfoWithId' and 'com.apitest.steps.GetMethods.getUserInfoWithId'"}
+{"logLevel":"debug","message":"Found id = {} olan kullanıcı bilgilerini getir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.apitest.steps.PostMethods.createNewUser' and 'com.apitest.steps.PostMethods.createNewUser'"}
+{"logLevel":"debug","message":"Found Yeni bir kullanıcı oluştur in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tYeni bir kullanıcı oluştur : public void createNewUser()"}
+{"logLevel":"debug","message":"\tKullanıcı listesinin tümünü getir : public void getAllUsers()"}
+{"logLevel":"debug","message":"\tid = {} olan kullanıcı bilgilerini getir : public void getUserInfoWithId(ınt id)"}
+{"logLevel":"debug","message":"Executing 'Yeni bir kullanıcı oluştur' using 'class com.apitest.steps.PostMethods.createNewUser"}
+Request method:	POST
+Request URI:	http://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+src\test\resources\CreateUser.json
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
