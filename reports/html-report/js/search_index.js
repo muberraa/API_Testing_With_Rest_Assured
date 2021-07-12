@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"{JSON} Placeholder Api Test":["specs/apitest.html"]}};
+var index = {"Tags":{},"Specs":{"Specification Heading":["specs/apitest.html"]}};

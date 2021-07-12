@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 
 public class DeleteMethods extends BaseUrl {
 
-
+  //Fail (ResponseTime>3000)
     @Step("Oluşturulan post silinir")
     public void deletePost(){
        given()
