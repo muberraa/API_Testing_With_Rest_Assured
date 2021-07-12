@@ -20,7 +20,7 @@ public class DeleteMethods extends BaseUrl {
                 .extract().response();
     }
     @Step("<id> id'li kullanıcıyı sil")
-    public void deleteStudent(int id)
+    public void deleteUser(int id)
     {
         given()
                 .queryParam("id",id)
